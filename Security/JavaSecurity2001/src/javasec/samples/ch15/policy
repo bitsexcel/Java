@@ -1,0 +1,4 @@
+//grant codebase "file:///files/" {
+grant codebase "file:/C:/WINDOWS/Desktop" {
+    permission java.security.AllPermission;
+};

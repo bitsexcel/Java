@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-17.0.2">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/bcmail-jdk15to18-166.jar"/>
+	<classpathentry kind="lib" path="libs/bcpg-jdk15to18-166.jar"/>
+	<classpathentry kind="lib" path="libs/bcpkix-jdk15to18-166.jar"/>
+	<classpathentry kind="lib" path="libs/bcprov-ext-jdk15to18-166.jar"/>
+	<classpathentry kind="lib" path="libs/bcprov-jdk15to18-166.jar"/>
+	<classpathentry kind="lib" path="libs/bctls-jdk15to18-166.jar"/>
+	<classpathentry kind="lib" path="F:/22_03_19_Java/22_03_19_Seg/WorkSpace/BouncyCastle/libs/javax.mail-api-1.6.2.jar"/>
+	<classpathentry kind="lib" path="F:/22_03_19_Java/22_03_19_Seg/WorkSpace/BouncyCastle/libs/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="F:/22_03_19_Java/22_03_19_Seg/WorkSpace/BouncyCastle/libs/log4j-slf4j-impl-2.18.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
