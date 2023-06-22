@@ -1,2 +1,12 @@
-2023-02-24 12:09:59 DEBUG HelloWorld2:21 -Hello world2.
-2023-02-24 12:13:27 WARN  HelloWorld:19 -Hello world.
+2023-06-22 15:39:46 WARN  foo:26 -Low fuel level.
+2023-06-22 15:39:46 INFO  Bar:32 -Located nearest gas station.
+2023-06-22 15:46:20 WARN  foo:26 -Low fuel level.
+2023-06-22 15:46:20 INFO  Bar:32 -Located nearest gas station.
+2023-06-22 15:46:46 DEBUG HelloWorld:19 -Hello world.
+2023-06-22 15:48:35 DEBUG HelloWorld:19 -Hello world.
+2023-06-22 15:50:16 WARN  foo:26 -Low fuel level.
+2023-06-22 15:50:16 INFO  Bar:32 -Located nearest gas station.
+2023-06-22 15:51:30 WARN  foo:26 -Low fuel level.
+2023-06-22 15:51:30 INFO  Bar:32 -Located nearest gas station.
+2023-06-22 15:59:10 WARN  foo:26 -Low fuel level.
+2023-06-22 15:59:10 INFO  Bar:32 -Located nearest gas station.
