@@ -19,7 +19,8 @@ public class HMacExample
 {
     public static void main(String[] args)
         throws Exception
-    {     Security.addProvider(new BouncyCastleProvider());
+    {     
+        Security.addProvider(new BouncyCastleProvider());
         SecretKey macKey = new SecretKeySpec(
                 Hex.decode(
                     "2ccd85dfc8d18cb5d84fef4b19855469" +

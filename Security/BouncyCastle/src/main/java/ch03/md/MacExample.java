@@ -20,6 +20,7 @@ public class MacExample
     public static void main(String[] args)
         throws Exception
     {
+        Security.addProvider(new BouncyCastleProvider());
         SecretKey macKey = new SecretKeySpec(
             Hex.decode("dfa66747de9ae63030ca32611497c827"), "AES");
 
