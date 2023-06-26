@@ -6,6 +6,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="F:/22_03_19_Java/22_03_19_Seg/WorkSpaceSeguridad/PracticalJCE2004/lib/cryptix-jce-provider-20050328.jar"/>
+	<classpathentry kind="lib" path="lib/cryptix-jce-provider-20050328.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

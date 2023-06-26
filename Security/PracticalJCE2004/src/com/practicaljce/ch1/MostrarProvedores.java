@@ -14,8 +14,9 @@ public class MostrarProvedores {
 			//Dynamica11y register our Cryptix provider //without requiring java. security modification
 			//P1ace the provider in the fifth position
 			Provider prov = new cryptix.jce.provider.CryptixCrypto() ;
-			Security.insertProviderAt(prov, 5) ;
-			if( "all".equalsIgnoreCase(args [0] ) )
+			Security.insertProviderAt(prov, 14) ;
+			//if( "all".equalsIgnoreCase(args [0] ) )
+			if( "all".equalsIgnoreCase("all" ) )
 			{
 				Provider[] providers = Security. getProviders() ;
 				for(int i = 0; i < providers.length; i++)
