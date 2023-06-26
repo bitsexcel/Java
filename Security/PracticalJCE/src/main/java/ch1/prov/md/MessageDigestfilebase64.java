@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ch1;
+package ch1.prov.md;
 
 import java.io.FileInputStream;
 import java.security.MessageDigest;

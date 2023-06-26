@@ -1,4 +1,4 @@
-package ch1;
+package ch1.prov.md;
 
 import java.security.Provider;
 import java.security.Security;
@@ -12,10 +12,10 @@ public class ProviderDetail {
         try {
             //Dynamica11y register our Cryptix provider //without requiring java. security modification
             //P1ace the provider in the fifth position
+
 //Security.addProvider(new cryptix.jce.provider.CryptixCrypto());
 //            Provider prov = new cryptix.jce.provider.CryptixCrypto();
 //            Security.insertProviderAt(prov, 5);
-            
 //			if( "all".equalsIgnoreCase(args [0] ) )
             if ("all".equalsIgnoreCase("all")) {
                 Provider[] providers = Security.getProviders();
@@ -30,9 +30,9 @@ public class ProviderDetail {
                     System.out.println("");
                     System.out.println("Total Providers : " + providers.length);
                 }
-            } 
-        else {
-                Provider provider = Security.getProvider(args[0]);
+            } else {
+//                Provider provider = Security.getProvider(args[0]);
+Provider provider = Security.getProvider("BC");
 
                 System.out.println(provider.getName() + "formally supports: ");
                 Iterator iter = provider.entrySet().iterator();
