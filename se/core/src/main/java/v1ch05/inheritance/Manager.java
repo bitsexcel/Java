@@ -1,4 +1,4 @@
-package inheritance;
+package v1ch05.inheritance;
 
 public class Manager extends Employee
 {
@@ -17,6 +17,7 @@ public class Manager extends Employee
       bonus = 0;
    }
 
+   @Override
    public double getSalary()
    {
       double baseSalary = super.getSalary();

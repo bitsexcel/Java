@@ -1,4 +1,4 @@
-package inheritance;
+package v1ch05.inheritance;
 
 /**
  * This program demonstrates inheritance.

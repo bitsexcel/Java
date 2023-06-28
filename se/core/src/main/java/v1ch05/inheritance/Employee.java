@@ -1,4 +1,4 @@
-package inheritance;
+package v1ch05.inheritance;
 
 import java.time.*;
 
