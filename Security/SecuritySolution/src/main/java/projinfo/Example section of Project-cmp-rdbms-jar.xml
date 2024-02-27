@@ -1,0 +1,47 @@
+<weblogic-rdbms-bean>
+	<pool-name>demoPool</pool-name>
+	<table-name>EAPROJ</table-name>
+	<attribute-map>
+		<object-link>
+			<bean-field>projID</bean-field>
+			<dbms-column>projid</dbms-column>
+		</object-link>
+		<object-link>
+			<bean-field>projName</bean-field>
+			<dbms-column>name</dbms-column>
+		</object-link>
+		<object-link>
+			<bean-field>projDescription</bean-field>
+			<dbms-column>DESCRIPTION</dbms-column>
+		</object-link>
+
+		<object-link>
+			<bean-field>initQuote</bean-field>
+			<dbms-column>initquote</dbms-column>
+		</object-link>
+		<object-link>
+			<bean-field>discount</bean-field>
+			<dbms-column>discount</dbms-column>
+		</object-link>
+		<object-link>
+			<bean-field>actualRate</bean-field>
+			<dbms-column>actualrate</dbms-column>
+		</object-link>
+	</attribute-map>
+	<finder-list>
+		<finder>
+			<method-name>findByPrimaryKey</method-name>
+			<method-params>
+				<method-param>java.lang.String</method-param>
+			</method-params>
+			<finder-query><![CDATA[(= projid)]]></finder-query>
+		</finder>
+		<finder>
+			<method-name>findAll</method-name>
+			<finder-query></finder-query>
+		</finder>
+	</finder-list>
+	<options>
+		<use-quoted-names>false</use-quoted-names>
+	</options>
+</weblogic-rdbms-bean>

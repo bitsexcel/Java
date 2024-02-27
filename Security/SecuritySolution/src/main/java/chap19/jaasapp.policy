@@ -1,0 +1,11 @@
+/* AUTOMATICALLY GENERATED ON Sun Feb 03 23:56:54 MST 2002*/
+/* DO NOT EDIT */
+
+grant codeBase "file:./richjaas.jar" {
+  permission java.security.AllPermission;
+};
+
+grant codeBase "file:./jaasaction.jar"
+      principal javax.security.auth.x500.X500Principal "CN=Rich Helton,OU=development,O=richwareLLC,L=denver,ST=co,C=us" {
+  permission java.security.AllPermission;
+};

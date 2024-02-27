@@ -1,0 +1,87 @@
+<!doctype html public "-//w3c/dtd HTML 4.0//en">
+<% response.addHeader("Pragma","No-cache");
+ response.addHeader("Cache-Control","no-cache");
+response.addDateHeader("Expires",1); %>
+  
+<html>
+<head>
+<title>Edit Project Details</title>
+</head>
+
+  <body>
+  <blockquote>
+  <h2> Edit Project Details</h2>
+  <p>
+  <b>
+
+  <form action="editproject.jsp" metod="post">
+ <table>
+    <tr> 
+        <td>Project Name: </td>
+        <td><input type="text" name="projname"> </td>
+     </tr>
+
+    <tr> 
+        <td>Project Description: </td>
+        <td><input type="text" name="projdesc"> </td>
+     </tr>
+     
+     <tr> 
+        <td>Inital Quote: </td>
+        <td><input type="text" name="iquote"> </td>
+     </tr>
+
+    <tr> 
+        <td>Discount: </td>
+        <td><input type="text" name="disc"> </td>
+     </tr>
+    <tr> 
+        <td>Actual Quote: </td>
+        <td><input type="text" name="Actual"> </td>
+     </tr>
+     <tr> <td COLSPAN="2" ALIGN="right">
+         &nbsp;&nbsp;
+         <input type="SUBMIT" VALUE="Submit project Info">
+      </td> </tr>
+  </table>
+  </form>
+
+  <h2>Team member information</h2>
+  <form action="editproject.jsp" metod="post">
+      <table border=1 cellpadding=5>
+       <th>Department </th>
+       <th>Main contact </th>
+    <tr> 
+        <td>New Name: <input type="text" name="deptname"> </td>
+        <td>New Contact:  <input type="text" name="contactname"> </td>
+     </tr>
+   <tr> <td COLSPAN="2" ALIGN="right">
+         <input type="SUBMIT" VALUE="Submit member information">
+      </td> </tr>
+    </table>
+  </form>
+
+  <h2>Modify artifact</h2>
+  <form action="editproject.jsp" metod="post">
+      <table border=1 cellpadding=5>
+       <th>Artifact name </th>
+       <th>Artifact description </th>
+       <th>Artifact location</th>
+    <tr> 
+        <td>New Name: <input type="text" name="artname"> </td>
+        <td>New Description: <input type="text" name="artDesc"> </td>
+        <td>New Location: <input type="text" name="artLoc"> </td>
+     </tr>
+   <tr> <td COLSPAN="3" ALIGN="right">
+           <input type="SUBMIT" VALUE="Submit Artifact Info">
+      </td> </tr>
+  </table>
+  </form>
+  <p><a href="welcome.jsp">Return to welcome page</a>
+  
+  <p><a href="login.jsp">Return to login page</a>
+  </b>
+  </blockquote>
+  </body>
+</html>
+

@@ -1,0 +1,10 @@
+grant CodeBase "file:./Login.jar" {
+        permission java.security.AllPermission;
+};
+grant CodeBase "file:./RichGSSService.jar"{
+
+	permission java.net.SocketPermission "*", "accept";
+
+	permission javax.security.auth.kerberos.ServicePermission
+		"rich@richware.com", "accept";
+};

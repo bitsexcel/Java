@@ -1,0 +1,17 @@
+grant CodeBase "file:./Login.jar" {
+        permission java.security.AllPermission;
+};
+grant CodeBase "file:./RichGSSInitiator.jar"{
+
+        permission java.security.AllPermission;
+
+	permission java.net.SocketPermission "*", "connect";
+
+	permission javax.security.auth.kerberos.ServicePermission
+		"krbtgt/richware.com@richware.com", 
+		"initiate";
+
+	permission javax.security.auth.kerberos.ServicePermission
+		"rich@richware.com", 
+		"initiate";
+};
