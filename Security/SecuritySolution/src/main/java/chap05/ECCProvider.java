@@ -1,4 +1,4 @@
-package com.richware.chap05;
+package chap05;
 
 import java.security.AccessController;
 import java.security.PrivilegedAction;

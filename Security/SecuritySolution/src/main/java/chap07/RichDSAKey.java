@@ -1,4 +1,4 @@
-package com.richware.chap07;
+package chap07;
 
 import java.security.*;
 import java.security.spec.*;

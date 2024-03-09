@@ -1,4 +1,4 @@
-package com.richware.chap04; 
+package chap04; 
 import java.security.*;
 import java.util.*;
 

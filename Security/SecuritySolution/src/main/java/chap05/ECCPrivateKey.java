@@ -1,21 +1,14 @@
-package com.richware.chap05;
+package chap05;
 
 
 
 import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.Serializable;
-
 import java.math.BigInteger;
-
 import java.security.InvalidKeyException;
-import java.security.Key;
 import java.security.PrivateKey;
-
 import java.util.Arrays;
-
-import javax.crypto.spec.DHParameterSpec;
 
 import sun.security.util.BigInt;
 import sun.security.util.DerInputStream;
