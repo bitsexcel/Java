@@ -1,4 +1,4 @@
-//package app;
+package app;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
@@ -8,7 +8,7 @@ import java.net.URL;
 
 import javax.net.ssl.HttpsURLConnection;
 
-public class TokenHacienda {
+public class HttpURLConnectionExample {
 
 	private final String USER_AGENT = "Mozilla/5.0";
 
