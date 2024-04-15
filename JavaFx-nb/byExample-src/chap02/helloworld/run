@@ -1,0 +1,2 @@
+#java -modulepath mods -m com.jfxbe.helloworld/com.jfxbe.helloworld.HelloWorld
+java --module-path mlib -m com.jfxbe.helloworld
