@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Dummies/src/main/java/ch01/null.java&apos; to &apos;ClickMe.java&apos;" description="Rename resource &apos;null.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/ch01/null.java" name="ClickMe.java" stamp="1708272127578" updateReferences="true"/>
+</session>
